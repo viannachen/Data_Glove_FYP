@@ -3,7 +3,7 @@ close all;
 clear;
 
 % Import data
-F = readtable('outputdataX.xlsx');
+F = readtable('trainingdataX.xlsx');
 xTrain = F{:,1:end-1};
 xTrain = xTrain';
 yTrain = F{:,end};

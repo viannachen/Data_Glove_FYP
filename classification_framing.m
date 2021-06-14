@@ -64,6 +64,6 @@ Testingaccuracy = correct/(size(yTest,1))
 %%
 % Plot the comfusion matrix
 cm= confusionchart(cellstr(yTest), label);
-cm.Title = 'Tree on windowing';
+cm.Title = 'SVM on windowing';
 cm.XLabel = 'Predicted Class'
 cm.YLabel = 'Actual Class'
