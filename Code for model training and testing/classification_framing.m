@@ -3,10 +3,10 @@ close all;
 clear;
 
 % Import data
-F = readtable('outputdataX.xlsx');
+F = readtable('trainingdata.xlsx');
 xTrain = F{:,1:end-2};
 
-X = readtable('outputdataY.xlsx');
+X = readtable('outputdata.xlsx');
 xTest = X{:,1:end-2};
 
 % Slicing

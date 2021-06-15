@@ -8,7 +8,7 @@ from aioconsole import ainput
 from bleak import BleakClient, discover
 
 root_path = os.environ["HOME"]
-output_file = f"{root_path}/Desktop/example.csv"
+output_file = f"{root_path}/Desktop/inputdata.csv"
 
 read_characteristic = "00001143-0000-1000-8000-00805f9b34fb"
 write_characteristic = "00001142-0000-1000-8000-00805f9b34fb"
